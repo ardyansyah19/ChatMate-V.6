@@ -1,0 +1,43 @@
+name: chatmate
+description: "ChatMate - Aplikasi chat bergaya WhatsApp dibangun dengan Flutter"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Untuk memilih & mengambil foto / video
+  image_picker: ^1.1.2
+
+  # Untuk memilih dokumen (pdf, docx, xlsx, dll)
+  file_picker: ^8.1.2
+
+  # Untuk memutar video di dalam chat
+  video_player: ^2.9.2
+
+  # Untuk membuka dokumen dengan aplikasi bawaan HP
+  open_filex: ^4.5.0
+
+  # Format tanggal & waktu ala WhatsApp (Hari ini, Kemarin, dst)
+  intl: ^0.19.0
+
+  # Menyimpan file yang dikirim ke folder aplikasi
+  path_provider: ^2.1.4
+
+  # Menampilkan ukuran file dengan rapi (KB/MB)
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
