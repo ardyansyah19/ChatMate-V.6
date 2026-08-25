@@ -1,4 +1,4 @@
-# ChatMate
+# ChatMate V.6
 
 Aplikasi chat mobile bergaya WhatsApp, dibangun dengan **Flutter/Dart**. Semua fitur pengiriman **teks, foto, video, dan dokumen benar-benar berfungsi** (bukan simulasi tampilan saja) — memakai kamera/galeri asli perangkat dan file system asli.
 
