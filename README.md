@@ -3,17 +3,6 @@ By Ahmad Riko Dyansyah
 
 Aplikasi chat mobile bergaya WhatsApp, dibangun dengan **Flutter/Dart**. Semua fitur pengiriman **teks, foto, video, dan dokumen benar-benar berfungsi** (bukan simulasi tampilan saja) — memakai kamera/galeri asli perangkat dan file system asli.
 
-## Fitur
-
-- Daftar chat (list) dengan avatar, status online, badge belum dibaca, pin, tab **Semua / Belum dibaca / Grup**, dan pencarian
-- Halaman chat (detail) dengan bubble hijau khas WhatsApp, centang status (mengirim → terkirim → diterima → dibaca/biru)
-- Kirim **pesan teks**
-- Kirim **foto** dari galeri atau kamera — tampil sebagai thumbnail, tap untuk lihat penuh layar (bisa di-zoom)
-- Kirim **video** dari galeri atau rekam dari kamera — tap untuk diputar di dalam aplikasi
-- Kirim **dokumen** apa saja (PDF, Word, Excel, dll) — tampil sebagai kartu file dengan nama & ukuran, tap untuk dibuka pakai aplikasi bawaan HP
-- Balasan otomatis singkat dari kontak (biar chat terasa hidup) setelah pesan kamu "dibaca"
-- Mode gelap otomatis mengikuti sistem HP
-
 ## Struktur Proyek
 
 ```
