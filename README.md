@@ -68,9 +68,3 @@ Pastikan juga `minSdkVersion` di `android/app/build.gradle` (atau `build.gradle.
 ```bash
 flutter run
 ```
-
-## Catatan
-
-- File yang dikirim (foto/video/dokumen) diambil langsung dari path asli file di HP kamu (lewat `image_picker` & `file_picker`), lalu ditampilkan dan bisa dibuka kembali lewat `open_filex` — semuanya berjalan lokal di perangkat, tanpa server/backend.
-- Data chat saat ini disimpan di memori (hilang saat aplikasi ditutup total). Kalau nanti kamu mau riwayat chat tersimpan permanen, tinggal tambahkan database lokal seperti `sqflite` atau `hive` — beri tahu saya kalau mau saya bantu lanjutkan.
-- Nama-nama kontak & pesan awal di daftar chat hanyalah data contoh (dummy) supaya tampilan tidak kosong saat pertama dibuka — semua tetap bisa dipakai kirim pesan sungguhan.
