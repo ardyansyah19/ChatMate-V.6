@@ -33,6 +33,19 @@ class ChatContact {
         .toUpperCase();
   }
 
+    String get initials {
+    final parts = name.trim().split(' ');
+    if (parts.length == 1) return parts.first.substring(0, 1).toUpperCase();
+    return (parts.first.substring(0, 1) + parts.last.substring(0, 1))
+        .toUpperCase();
+  }
+
+    String get initials {
+    final parts = name.trim().split(' ');
+    if (parts.length == 1) return parts.first.substring(0, 1).toUpperCase();
+    return (parts.first.substring(0, 1) + parts.last.substring(0, 1))
+        .toUpperCase();
+  }
   String previewText() {
     final msg = lastMessage;
     if (msg == null) return '';
