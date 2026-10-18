@@ -5,6 +5,27 @@ import '../theme/app_colors.dart';
 import '../utils/date_formatter.dart';
 import 'avatar_circle.dart';
 
+import 'package:flutter/material.dart';
+import '../models/chat.dart';
+import '../models/message.dart';
+import '../theme/app_colors.dart';
+import '../utils/date_formatter.dart';
+import 'avatar_circle.dart';
+
+import 'package:flutter/material.dart';
+import '../models/chat.dart';
+import '../models/message.dart';
+import '../theme/app_colors.dart';
+import '../utils/date_formatter.dart';
+import 'avatar_circle.dart';
+
+import 'package:flutter/material.dart';
+import '../models/chat.dart';
+import '../models/message.dart';
+import '../theme/app_colors.dart';
+import '../utils/date_formatter.dart';
+import 'avatar_circle.dart';
+
 class ChatTile extends StatelessWidget {
   final ChatContact chat;
   final VoidCallback onTap;
