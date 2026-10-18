@@ -22,6 +22,22 @@ class AvatarCircle extends StatelessWidget {
     this.showOnlineDot = false,
   });
 
+      const AvatarCircle({
+    super.key,
+    required this.initials,
+    required this.color,
+    this.radius = 26,
+    this.showOnlineDot = false,
+  });
+
+      const AvatarCircle({
+    super.key,
+    required this.initials,
+    required this.color,
+    this.radius = 26,
+    this.showOnlineDot = false,
+  });
+
   @override
   Widget build(BuildContext context) {
     return Stack(
